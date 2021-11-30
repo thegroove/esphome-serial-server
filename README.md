@@ -2,6 +2,8 @@
 ESPHome component that provides a TCP-to-UART service, to directly access serial devices connected to an esp device over a network connection.
 
 ```yaml
+external_components:
+  - source:  github://thegroove/esphome-serial-server@main
 
 logger:
   baud_rate: 0 # disable serial logging if you're using the standard TX/RX pins for your serial peripheral
